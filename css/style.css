@@ -79,24 +79,28 @@ body{
 }
 
 .footer{
-    text-align: right;
+    display: flex;
+    /* text-align: right; */
+    justify-content: center;
     color: white;
     background-color: darkgreen;
     padding: 3px;
 }
 
 .menu-footer{
-    text-align: center;
+    text-align: left;
 }
 
 .menu-footer li{
     display: inline;
     padding-right: 10px;
+    
 }
 
 .menu-footer a{
     text-decoration: none;
     color: white;
+    
 }
 
 .menu-footer a:hover{
