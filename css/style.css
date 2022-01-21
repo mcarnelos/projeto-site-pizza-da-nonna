@@ -11,7 +11,7 @@ body{
     justify-content: center;
 }
 
-#logo{
+.logo{
     padding: 5px;
 }
 
@@ -40,7 +40,65 @@ body{
     
 }
 
+.img-principal{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardapios{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 1px;
+    margin-top: 10px;
+}
+
 .container{
     display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    justify-content: stretch;
+    grid-column-gap: 40px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.salgadas{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.doces{
+    background-color: rgba(0, 0, 0, 0.2);
     
+}
+
+.rodizio{
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+.footer{
+    text-align: right;
+    color: white;
+    background-color: darkgreen;
+    padding: 3px;
+}
+
+.menu-footer{
+    text-align: center;
+}
+
+.menu-footer li{
+    display: inline;
+    padding-right: 10px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-footer a:hover{
+    color: darkgray;
 }
