@@ -63,9 +63,12 @@ body{
     color: white;
 }
 
+.container h3{
+    background-color: darkgreen;
+   
+}
 .salgadas{
     background-color: rgba(0, 0, 0, 0.2);
-    padding-bottom: 20px;
 }
 
 .doces{
@@ -75,26 +78,24 @@ body{
 
 .rodizio{
     background-color: rgba(0, 0, 0, 0.2);
-    
 }
 
 .footer{
     display: flex;
-    /* text-align: right; */
     justify-content: center;
     color: white;
     background-color: darkgreen;
-    padding: 3px;
 }
 
-.menu-footer{
-    text-align: left;
+.menu-footer ul{
+    text-align: center;
+    padding-right: 10px;
+
 }
 
 .menu-footer li{
     display: inline;
-    padding-right: 10px;
-    
+    padding-right: 20px;
 }
 
 .menu-footer a{
@@ -105,4 +106,9 @@ body{
 
 .menu-footer a:hover{
     color: darkgray;
+}
+
+.menu-footer p{
+    font-size: 0.8rem;
+    text-align: center;
 }
