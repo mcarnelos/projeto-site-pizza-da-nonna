@@ -9,6 +9,12 @@
 </head>
 <body>
     
+    <!-- <div class="menu-sup">
+        <h4>Televendas: (15)32225444</h4>
+        <h4>Login</h4>
+
+    </div> -->
+
     <header class="cabecalho">
         <img class="logo" src="./images/logo.png" alt="logo">
     </header>
@@ -51,6 +57,39 @@
                     <a href="#"><img src="./images/pizza_rodizio.png" alt="rodizio" height="250"></a>
                 </div>
     </main>
+
+    <div class="container2">
+        <div class="localizacao">
+            <h3>Localização</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14635.56977224955!2d-47.4691573780549!
+            3d-23.50038327738419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58abc9367608f%3A0xce9db682504
+            ed09f!2sCentro%2C%20Sorocaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1643151212859!5m2!1spt-BR!2sbr" 
+            width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="pedido">
+            <h3>Pedido</h3>
+            
+            <input id="nome" name="nome" type="text" placeholder="Nome"><br><br>
+            <input id="telefone" name="telefone" type="text" placeholder="Telefone"><br><br>
+            <input id="endereco" name="endereco" type="text" placeholder="Endereco"><br><br>
+            <select name="pagamento" id="pagamento">
+                <option value="pagamento">Forma de pagamento</option>
+                <option value="dinheiro">Dinheiro</option>
+                <option value="credito">Cartão de Crédito</option>
+                <option value="debito">Cartão de Débito</option>
+            </select><br><br>
+            <select name="pizza" id="pizza"><br><br>
+                <option value="sabor">Escolha o sabor</option>
+                <option value="mussarela">Mussarela</option>
+                <option value="calabresa">Calabresa</option>
+                <option value="Frango">Frango</option>
+                <option value="quatro-queijos">Quatro Queijos</option>
+                <option value="palmito">Palmito</option>
+            </select><br><br>
+            <button id="botao-pedido">Fazer Pedido</button>
+        </div>
+    </div>
 
 
     <footer class="footer">

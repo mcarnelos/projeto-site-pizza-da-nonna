@@ -11,7 +11,14 @@ body{
     justify-content: center;
 }
 
+/* .menu-sup{
+    background-color: black;
+    color: white;
+    padding: 1px;
+} */
+
 .logo{
+
     padding: 5px;
 }
 
@@ -41,7 +48,8 @@ body{
 }
 
 .img-principal{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
 }
 
@@ -49,7 +57,7 @@ body{
     text-align: center;
     background-color: darkgreen;
     color: white;
-    padding: 1px;
+   /*  padding: 1px; */
     margin-top: 10px;
 }
 
@@ -67,17 +75,73 @@ body{
     background-color: darkgreen;
    
 }
+
 .salgadas{
     background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 500ms ease-out, padding 800ms;
+    border-radius: 5px;
+}
+
+.salgadas:hover{
+    background-color: white;
 }
 
 .doces{
     background-color: rgba(0, 0, 0, 0.2);
-    
+    transition: background-color 500ms ease-out, padding 800ms;
+    border-radius: 5px;
+}
+
+.doces:hover{
+    background-color: white;
 }
 
 .rodizio{
     background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 500ms ease-out, padding 800ms;
+    border-radius: 5px;
+}
+
+.rodizio:hover{
+    background-color: white;
+}
+
+.container2{
+    display: grid;
+    color: white;
+    grid-template: auto auto / auto auto;
+    justify-content: space-around;
+}
+
+.localizacao{
+    background-color: darkgreen;
+    margin-bottom: 10px;
+}
+
+.localizacao h3{
+    background-color: darkgreen;
+    text-align: center;
+    
+}
+
+.pedido{
+    background-color: darkgreen;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 500ms ease-out, padding 800ms;
+}
+
+.pedido h3{
+    background-color: darkgreen;
+    text-align: center;
+}
+
+#botao-pedido:hover{
+    background-color: green;
+    color: white;
 }
 
 .footer{
