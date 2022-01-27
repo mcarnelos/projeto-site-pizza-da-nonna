@@ -125,24 +125,53 @@ body{
 }
 
 .pedido{
+    position: relative;
     background-color: darkgreen;
     margin-bottom: 10px;
     width: 500px;
     height: 300px;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
     transition: background-color 500ms ease-out, padding 800ms;
 }
 
 .pedido h3{
     background-color: darkgreen;
-    text-align: center;
+    text-align: left;
+    margin-left: 90px;
+}
+
+#botao-pedido{
+    margin-left: 90px;
+    border-radius: 5px;
 }
 
 #botao-pedido:hover{
     background-color: green;
     color: white;
 }
+
+.input{
+    margin-left: 35px;
+}
+
+#resumo-do-pedido{
+    position: absolute;
+    display: inline;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin-top: -250px;
+    margin-left: 65px;
+    border-radius: 10px;
+}
+
+#resumo-do-pedido h3{
+    color: darkgreen;
+    background-color: white;
+    margin-left: 45px;
+}
+
 
 .footer{
     display: flex;
