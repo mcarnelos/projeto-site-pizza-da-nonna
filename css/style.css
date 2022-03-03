@@ -11,12 +11,6 @@ body{
     justify-content: center;
 }
 
-/* .menu-sup{
-    background-color: black;
-    color: white;
-    padding: 1px;
-} */
-
 .logo{
 
     padding: 5px;
@@ -141,12 +135,12 @@ body{
     margin-left: 90px;
 }
 
-#botao-pedido{
+#botaoPedido{
     margin-left: 90px;
     border-radius: 5px;
 }
 
-#botao-pedido:hover{
+#botaoPedido:hover{
     background-color: green;
     color: white;
 }
@@ -155,7 +149,7 @@ body{
     margin-left: 35px;
 }
 
-#resumo-do-pedido{
+#resumoPedido{
     position: absolute;
     display: inline;
     width: 250px;
@@ -166,10 +160,14 @@ body{
     border-radius: 10px;
 }
 
-#resumo-do-pedido h3{
+#resumoPedido h3{
     color: darkgreen;
     background-color: white;
     margin-left: 45px;
+}
+
+#resumoPedido p{
+    color: black;
 }
 
 
