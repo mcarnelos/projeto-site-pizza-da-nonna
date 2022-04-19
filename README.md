@@ -21,7 +21,7 @@ https://mcarnelos.github.io/projeto-site-pizza-da-nonna/
 # clonar repositório
 git clone https://github.com/mcarnelos/projeto-site-pizza-da-nonna
 
-# entrar na pasta projeto-rocketblog
+# entrar na pasta projeto pizza da nonna
 abrir na IDE de preferência, no meu caso foi utilizado o Visual Studio Code.
 ```
 
